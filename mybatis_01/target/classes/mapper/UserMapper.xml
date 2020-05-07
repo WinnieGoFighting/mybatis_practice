@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ni.mybatis.mapper.UserMapper">
+
+<!--  表中的列名和对象中的属性名称不匹配，解决方法：使用resultMap:结果集和对象的映射  -->
+<!--    如果数据匹配，可以直接用resultType,不匹配，需要用resultMap做映射-->
+    <resultMap id="BaseResultMap" type="User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="salary" column="salary"/>
+    </resultMap>
+
+    <select id="get" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select id, name, salary from t_user where id = #{id}
+    </select>
+
+    <select id="listAll" resultMap="BaseResultMap">
+        select * from t_user
+    </select>
+
+    <delete id="delete" >
+        delete from t_user where id = #{id}
+    </delete>
+
+    <update id="update">
+        update t_user set name=#{name}, salary=#{salary} where id=#{id}
+    </update>
+
+<!--    useGenerateKeys:是否需要返回自动生成的主键
+        keyProperty: 告诉生成的主键放在对象的哪一个属性上
+-->
+   <insert id="save" useGeneratedKeys="true" keyProperty="id">
+        insert into t_user(name,salary) values (#{name},#{salary})
+   </insert>
+
+<!--    <select id="getCount" resultType="int">-->
+<!--        select count(*) from t_user-->
+<!--    </select>-->
+
+<!--    <select id="getMap" resultType="map">-->
+<!--        select name,id from t_user-->
+<!--    </select>-->
+
+</mapper>
