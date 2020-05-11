@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5c17e26-0a36-4d0d-8cb7-d0eab833d6bf" name="Default Changelist" comment="" />
+    <list default="true" id="c5c17e26-0a36-4d0d-8cb7-d0eab833d6bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../mybatis_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_03/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring/spring_03_xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -133,6 +135,7 @@
       <workItem from="1588819877624" duration="1500000" />
       <workItem from="1588888036559" duration="409000" />
       <workItem from="1588888782346" duration="34000" />
+      <workItem from="1589081965401" duration="32000" />
     </task>
     <servers />
   </component>
@@ -152,10 +155,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588719401360" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1588888816010">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589081995923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588888816010" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589081995923" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588888445565">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -176,10 +179,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="162" y="0" key="SettingsEditor/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588822704007" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1588888799590">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1589081967893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588888799590" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589081967893" />
     <state x="0" y="0" width="609" height="680" key="find.popup" timestamp="1588702762347">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

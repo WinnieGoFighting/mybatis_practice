@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ni.mybatis.mapper.EmployeeMapper">
+
+    <resultMap id="BaseResultMap" type="Employee">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <!--        处理关联对象-->
+        <!-- 方法一：-->
+<!--        <result column="d_id" property="dept.id"/>-->
+<!--        <result column="d_name" property="dept.name"/>-->
+        <!-- 方法二：推荐以下写法-->
+        <association property="dept" javaType="Department" columnPrefix="d_">
+            <result column="id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+    </resultMap>
+
+    <insert id="save">
+        insert into emp (name,dept_id) values(#{name},#{dept.id})
+    </insert>
+
+    <select id="get" resultMap="BaseResultMap">
+        select e.id,e.name,
+                d.id as d_id,d.name as d_name
+        from emp e join dept d on e.dept_id = d.id
+        where e.id=#{id}
+    </select>
+
+    <select id="listAll" resultMap="BaseResultMap">
+        select e.id,e.name,
+                d.id as d_id,d.name as d_name
+        from emp e join dept d on e.dept_id = d.id
+    </select>
+
+</mapper>

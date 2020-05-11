@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--属性配置-->
+    <properties resource="db.properties"/>
+
+    <!-- 日志技术-->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+    <!-- 类型别名-->
+    <typeAliases>
+    <!-- <typeAlias type="com.ni.mybatis.domain.User" alias="User"/>-->
+    <!-- 可以为包起别名，自动为该包中的类起别名，默认的别名是简单类名首字母小写，但其实类名不区分大小写-->
+        <package name="com.ni.mybatis.domain"/>
+    </typeAliases>
+
+    <!--   配置数据库的环境 -->
+<!--   注意：以后事务管理器和连接池都是交给spring框架来管理的 -->
+    <environments default="dev">
+        <environment id="dev">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+<!--                <property name="driver" value="com.mysql.jdbc.Driver"/>-->
+                <property name="driver" value= "${driver}"/>
+<!--                <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>-->
+                <property name="url" value="${url}"/>
+<!--                <property name="username" value="root"/>-->
+                <property name="username" value="${username}"/>
+<!--                <property name="password" value="12345"/>-->
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--    关联映射文件-->
+    <mappers>
+        <mapper resource="mapper/EmployeeMapperInline.xml"/>
+        <mapper resource="mapper/DepartmentMapper.xml"/>
+    </mappers>
+
+</configuration>
