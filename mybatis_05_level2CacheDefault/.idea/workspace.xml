@@ -40,11 +40,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_05_level2CacheEhCache" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,7 +62,7 @@
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestQuery.testGet">
+  <component name="RunManager" selected="JUnit.TestQuery.testSave">
     <configuration name="TestCombinationQuery.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_03_many2one" />
       <useClassPathOnly />
@@ -86,7 +86,7 @@
       </method>
     </configuration>
     <configuration name="TestQuery.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_04_many2many" />
+      <module name="mybatis_04_level2CacheDefault" />
       <useClassPathOnly />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestQuery" />
@@ -108,7 +108,7 @@
       </method>
     </configuration>
     <configuration name="TestQuery.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_04_many2many" />
+      <module name="mybatis_04_level2CacheDefault" />
       <useClassPathOnly />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestQuery" />
@@ -131,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQuery.testGet" />
         <item itemvalue="JUnit.TestQuery.testSave" />
+        <item itemvalue="JUnit.TestQuery.testGet" />
         <item itemvalue="JUnit.TestQuery.testDelete" />
         <item itemvalue="JUnit.TestQuery.testListAll" />
         <item itemvalue="JUnit.TestCombinationQuery.test1" />
@@ -163,9 +163,8 @@
       <workItem from="1589238613985" duration="41000" />
       <workItem from="1589240274934" duration="1411000" />
       <workItem from="1589242484843" duration="2119000" />
-      <workItem from="1589244886169" duration="5473000" />
-      <workItem from="1589302241783" duration="624000" />
-      <workItem from="1589311878265" duration="75000" />
+      <workItem from="1589244886169" duration="4867000" />
+      <workItem from="1589261960291" duration="2197000" />
     </task>
     <servers />
   </component>
@@ -207,14 +206,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="238" y="0" key="#TestCombinationQuery.test1/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589140473791" />
-    <state x="238" y="0" key="#TestQuery.testGet" timestamp="1589253109370">
+    <state x="238" y="0" key="#TestQuery.testGet" timestamp="1589263398117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="238" y="0" key="#TestQuery.testGet/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589253109370" />
-    <state x="238" y="0" key="#TestQuery.testSave" timestamp="1589253073986">
+    <state x="238" y="0" key="#TestQuery.testGet/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589263398117" />
+    <state x="238" y="0" key="#TestQuery.testSave" timestamp="1589263504005">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="238" y="0" key="#TestQuery.testSave/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589253073986" />
+    <state x="238" y="0" key="#TestQuery.testSave/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589263504005" />
     <state x="403" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588711200002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -227,34 +226,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588877655090" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589311960047">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589243922589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589311960047" />
-    <state width="1281" height="448" key="GridCell.Tab.0.bottom" timestamp="1589261957085">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589243922589" />
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom" timestamp="1589264161356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="448" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589261957085" />
-    <state width="1281" height="448" key="GridCell.Tab.0.center" timestamp="1589261957084">
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589264161356" />
+    <state width="1281" height="448" key="GridCell.Tab.0.center" timestamp="1589264161355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="448" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589261957084" />
-    <state width="1281" height="448" key="GridCell.Tab.0.left" timestamp="1589261957084">
+    <state width="1281" height="448" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589264161355" />
+    <state width="1281" height="448" key="GridCell.Tab.0.left" timestamp="1589264161355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="448" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589261957084" />
-    <state width="1281" height="448" key="GridCell.Tab.0.right" timestamp="1589261957085">
+    <state width="1281" height="448" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589264161355" />
+    <state width="1281" height="448" key="GridCell.Tab.0.right" timestamp="1589264161356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="448" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589261957085" />
-    <state x="140" y="0" width="996" height="680" key="SettingsEditor" timestamp="1589249577702">
+    <state width="1281" height="448" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589264161356" />
+    <state x="140" y="0" width="996" height="680" key="SettingsEditor" timestamp="1589263450334">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="140" y="0" width="996" height="680" key="SettingsEditor/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589249577702" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1589311912193">
+    <state x="140" y="0" width="996" height="680" key="SettingsEditor/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589263450334" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1589242485746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589311912193" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589242485746" />
     <state x="440" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589139150661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

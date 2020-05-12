@@ -1,0 +1,35 @@
+缓存的相关概念
+1.哪些数据适合放到缓存中
+    一般情况下，经常被查询且很少修改的数据，即读远远大于写操作的数据
+2.缓存性能相关的属性
+    命中率：从缓存中查询出来的数量/总的查询数量 eg: 800/1000 = 80%
+    最大对象数量：缓存区域中最多存储多少个数据，超出的部分可以写出到硬盘中（序列化）
+    最大空闲时间
+3. 缓存的类别：
+    一级缓存：SqlSession级别的，每次创建新的session对象，一级缓存空间就会改变
+    二级缓存：mapper级别，作用域是mapper文件的同一个namespace 二级缓存应该和namespace绑定
+        在mybatis中实现缓存，只需要实现Cache接口，mybatis已经提供了一个自带的缓存技术
+        使用自带的二级缓存步骤：
+            1. 在全局配置文件中，启用二级缓存
+                <setting name="cacheEnabled" value="true"/>
+            2. 在mapper文件中，使用cache元素，把namespace和缓存绑定
+            3. 把放入二级缓存对象实现序列化接口
+                public class Teacher implements Serializable
+         二级缓存配置的细节
+            当启用二级缓存之后
+                1. mapper文件中所有的select元素都会使用到缓存
+                2. 在大多数情况下，针对于列表查询（查询多条数据），设置为不缓存，只有sql和参数相同的时候，才会用到缓存
+                    <select id="listAll" resultType="Teacher" useCache="false"/>
+                3. 一般的，只会对get方法做查询缓存
+                4. 默认情况下，Insert, Delete, Update 都会去刷新缓存，对于删除和和更新，是合理的，对于插入是没必要的
+                    <insert id="insert" ...flushCache="false"/>
+4 EhCache
+    EhCache 是一种广泛使用的开源Java分布式缓存。快速，简单，多种缓存策略，缓存数据有内存和硬盘两级
+    缓存数据会在JVM重启的过程中写入硬盘，支持多缓存管理器实例以及一个实例的多个缓存区域
+    使用EhCache的步骤
+        1. 导入相关jar包
+            ehcache-core-2.6.8.jar
+            slf4j-api-1.7.25.jar
+            mybatis-ehcache-1.0.3.jar
+            slf4j-log4j12-1.7.25.jar
+
