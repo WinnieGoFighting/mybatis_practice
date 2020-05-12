@@ -7,9 +7,14 @@
     <!--属性配置-->
     <properties resource="db.properties"/>
 
-    <!-- 日志技术-->
+
     <settings>
+        <!-- 日志技术-->
         <setting name="logImpl" value="LOG4J"/>
+        <!-- 延迟加载的相关配置-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="lazyLoadTriggerMethods" value="clone"/>
     </settings>
 
     <!-- 类型别名-->
@@ -40,7 +45,7 @@
 <!--    关联映射文件-->
     <mappers>
         <mapper resource="mapper/EmployeeMapper.xml"/>
-        <mapper resource="mapper/DepartmentMapperInline.xml"/>
+        <mapper resource="mapper/DepartmentMapper.xml"/>
     </mappers>
 
 </configuration>

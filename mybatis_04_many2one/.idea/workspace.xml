@@ -40,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_04_one2many" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -61,7 +61,7 @@
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestQuery.testListAll">
+  <component name="RunManager" selected="JUnit.TestQuery.testGet">
     <configuration name="TestCombinationQuery.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_03_many2one" />
       <useClassPathOnly />
@@ -85,11 +85,13 @@
       </method>
     </configuration>
     <configuration name="TestQuery.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_03_many2one" />
+      <module name="mybatis_04_many2one" />
+      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestQuery" />
       <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQuery.testListAll" />
         <item itemvalue="JUnit.TestQuery.testGet" />
+        <item itemvalue="JUnit.TestQuery.testListAll" />
         <item itemvalue="JUnit.TestQuery.testSave" />
         <item itemvalue="JUnit.TestCombinationQuery.test1" />
         <item itemvalue="JUnit.TestCombinationQuery.test3" />
@@ -154,6 +156,7 @@
       <workItem from="1588969304083" duration="69000" />
       <workItem from="1588977438900" duration="46000" />
       <workItem from="1589138676418" duration="6541000" />
+      <workItem from="1589238661796" duration="2422000" />
     </task>
     <servers />
   </component>
@@ -195,6 +198,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="238" y="0" key="#TestCombinationQuery.test1/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589140473791" />
+    <state x="238" y="0" key="#TestQuery.testGet" timestamp="1589238935298">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="238" y="0" key="#TestQuery.testGet/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589238935298" />
     <state x="403" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588711200002">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -207,26 +214,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588877655090" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1588977483027">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589240267220">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588977483027" />
-    <state width="1281" height="449" key="GridCell.Tab.0.bottom" timestamp="1589145232581">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589240267220" />
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom" timestamp="1589242219674">
+      <screen x="9" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1281" height="449" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589145232581" />
-    <state width="1281" height="449" key="GridCell.Tab.0.center" timestamp="1589145232581">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589240161920" />
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@9.-1080.1920.1040" timestamp="1589242219674" />
+    <state width="1281" height="448" key="GridCell.Tab.0.center" timestamp="1589242219674">
+      <screen x="9" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1281" height="449" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589145232581" />
-    <state width="1281" height="449" key="GridCell.Tab.0.left" timestamp="1589145232581">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1281" height="448" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589240161920" />
+    <state width="1281" height="448" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@9.-1080.1920.1040" timestamp="1589242219674" />
+    <state width="1281" height="448" key="GridCell.Tab.0.left" timestamp="1589242219674">
+      <screen x="9" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1281" height="449" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589145232581" />
-    <state width="1281" height="449" key="GridCell.Tab.0.right" timestamp="1589145232581">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1281" height="448" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589240161919" />
+    <state width="1281" height="448" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@9.-1080.1920.1040" timestamp="1589242219674" />
+    <state width="1281" height="448" key="GridCell.Tab.0.right" timestamp="1589242219674">
+      <screen x="9" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1281" height="449" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589145232581" />
+    <state width="1281" height="448" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589240161920" />
+    <state width="1281" height="448" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@9.-1080.1920.1040" timestamp="1589242219674" />
     <state x="162" y="0" key="SettingsEditor" timestamp="1589139275418">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

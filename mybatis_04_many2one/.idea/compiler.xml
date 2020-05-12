@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis_03_many2one" />
+        <module name="mybatis_04_many2one" />
         <module name="mybatis_02" />
+        <module name="mybatis_03_many2one" />
         <module name="mybatis_01" />
       </profile>
     </annotationProcessing>

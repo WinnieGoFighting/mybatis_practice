@@ -1,0 +1,17 @@
+开启延迟加载的步骤
+1. 在主配置文件中settings配置中开启延迟加载
+<setting name="lazyLoadingEnabled" value="true"/>
+
+细节注意：1.aggressiveLazyLoading	开启时，任一方法的调用都会加载该对象的所有延迟加载属性。
+            默认值：false （在 3.4.1 及之前的版本中默认为 true）
+            所以，为了在各种版本中都不要使用aggressiveLazyLoading，建议手动将其设置成false
+            <setting name="lazyLoadingEnabled" value="true"/>
+            <setting name="aggressiveLazyLoading" value="false"/>
+
+          2.lazyLoadTriggerMethods:指定对象的哪些方法触发一次延迟加载
+            默认值 equals,clone,hashCode,toString
+            所以我们需要手动调整默认值
+
+
+
+

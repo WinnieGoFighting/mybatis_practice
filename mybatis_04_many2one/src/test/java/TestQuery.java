@@ -47,13 +47,15 @@ public class TestQuery {
         //DepartmentMapper dMapper = (DepartmentMapper)session.getMapper(DepartmentMapper.class);
 
         Employee e =eMapper.get(1L);
+        System.out.println(e);
+
         //拥有了员工所在部门的id,但是期望得到的是Department对象
         //解决方案：根据部门id,在额外的发送一条sql语句查询出部门对象，把部门对象设置给员工
         //这种方法叫做 额外的sql查询，问题：有没有办法让mybatis帮我们发送这条额外语句？
 //        Long deptId = e.getDept().getId();
 //        Department d = dMapper.get(deptId);
 //        e.setDept(d);
-        System.out.println(e.getDept());
+       // System.out.println(e.getDept());
     }
 
     /**
@@ -75,7 +77,6 @@ public class TestQuery {
         List<Employee> list = eMapper.listAll();
         for (Employee e: list) {
             System.out.println(e);
-            System.out.println(e.getDept());
         }
     }
 

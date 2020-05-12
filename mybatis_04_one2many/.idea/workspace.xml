@@ -40,26 +40,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ni\IdeaProjects\mybatis\mybatis_04_one2many\src\main\resources" />
+      <recent name="C:\Users\Ni\IdeaProjects\mybatis\mybatis_04_one2many\src\main\resources\mapper" />
+      <recent name="C:\Users\Ni\IdeaProjects\mybatis\mybatis_03_many2one\src\main\resources\mapper" />
+      <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\java\com\ni\mybatis\mapper" />
+      <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\resources\mappers" />
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\resources" />
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main" />
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\java\com\ni\mybatis\domain" />
       <recent name="C:\Users\Ni\IdeaProjects\mybatis\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ni\IdeaProjects\mybatis\mybatis_04_one2many\src\main\resources\mapper" />
-      <recent name="C:\Users\Ni\IdeaProjects\mybatis\mybatis_03_many2one\src\main\resources\mapper" />
-      <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\java\com\ni\mybatis\mapper" />
-      <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\java" />
-      <recent name="C:\Users\Ni\IdeaProjects\mybatis\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestQuery.testGet">
@@ -160,6 +160,8 @@
       <workItem from="1588977438900" duration="46000" />
       <workItem from="1589138676418" duration="6541000" />
       <workItem from="1589145533233" duration="5395000" />
+      <workItem from="1589238613985" duration="41000" />
+      <workItem from="1589240274934" duration="1411000" />
     </task>
     <servers />
   </component>
@@ -221,34 +223,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="250" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588877655090" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1588977483027">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589238655359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588977483027" />
-    <state width="1266" height="442" key="GridCell.Tab.0.bottom" timestamp="1589162390575">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589238655359" />
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom" timestamp="1589242225030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1266" height="442" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589162390575" />
-    <state width="1266" height="442" key="GridCell.Tab.0.center" timestamp="1589162390574">
+    <state width="1281" height="448" key="GridCell.Tab.0.bottom/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589242225030" />
+    <state width="1281" height="448" key="GridCell.Tab.0.center" timestamp="1589242225030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1266" height="442" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589162390574" />
-    <state width="1266" height="442" key="GridCell.Tab.0.left" timestamp="1589162390574">
+    <state width="1281" height="448" key="GridCell.Tab.0.center/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589242225030" />
+    <state width="1281" height="448" key="GridCell.Tab.0.left" timestamp="1589242225030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1266" height="442" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589162390574" />
-    <state width="1266" height="442" key="GridCell.Tab.0.right" timestamp="1589162390574">
+    <state width="1281" height="448" key="GridCell.Tab.0.left/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589242225030" />
+    <state width="1281" height="448" key="GridCell.Tab.0.right" timestamp="1589242225030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1266" height="442" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589162390574" />
+    <state width="1281" height="448" key="GridCell.Tab.0.right/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589242225030" />
     <state x="162" y="0" key="SettingsEditor" timestamp="1589147134139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="162" y="0" key="SettingsEditor/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589147134139" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1588977438943">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1589238614043">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1588977438943" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680/9.-1080.1920.1040@0.0.1280.680" timestamp="1589238614043" />
     <state x="440" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589139150661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
